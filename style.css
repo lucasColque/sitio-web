@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 28, 48);
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(103, 137, 131);
+    color: rgb(24, 28, 48);
+    background-color: rgb(230, 221, 196);
+  }
+
+
+/*Header*/
+header {
+    background: url(./Material/Info-Trabajo-Final/assets/imagenes/codigo.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h1{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    text-shadow: 2px 2px gray, 6px 6px black;
+    font-size: 3.5em;
+}
+
+/*Main*/
+main{
+    text-align: center;
+    background-color: rgb(24, 28, 48);
+}
+main h2{
+    text-shadow: 2px 2px black;
+    font-size:  2.5em;
+    color: rgb(103, 137, 131);
+    margin-bottom: 20vh;
+}
+.carta{
+    width: 360px;
+    height: 410px;
+    background-color: rgb(230, 221, 196) ;
+    border: 5px solid rgb(103, 137, 131);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.carta img{
+    width: 100%;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+.boton_carta{
+    background-color: rgb(24, 28, 48);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.carta a{
+    text-decoration: none;
+    box-shadow: 2px 3px rgb(103, 137, 131);
+    border-radius: 10px;
+    color: rgb(240, 245, 228);
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color: rgb(103, 137, 131);
+    color: rgb(24, 28, 48);
+
+}
+footer div img{
+    height: 80px;
+}
+footer .div_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+footer .div_footer h3{
+    text-align: center;
+    font-size: 0.875em;
+}
