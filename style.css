@@ -49,7 +49,7 @@ h1{
 }
 
 /*Main*/
-main{
+.main_index{
     text-align: center;
     background-color: rgb(24, 28, 48);
 }
@@ -115,3 +115,39 @@ footer .div_footer h3{
     text-align: center;
     font-size: 0.875em;
 }
+
+/*Historia-Main*/
+.main_historia{
+    background-color:rgb(24, 28, 48) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_h2_p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 60px;
+}
+.main_historia div h2{
+    text-align: center;
+    margin: auto 20px;
+    font-size: 40px;
+    width: 50%;
+}
+
+.main_historia div p{
+    width: 50%;
+}
+p{
+    color: #E6DDC4;
+}
+.p_historia{
+    width: 70%;
+}
+.div_main_top{
+    padding-top: 160px;
+}
+
