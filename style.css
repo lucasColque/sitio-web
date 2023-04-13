@@ -5,22 +5,20 @@
     font-family: 'Montserrat', sans-serif;
 
 }
-nav {
-    display: flex;
+.nav {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(24, 28, 48);
   }
-  nav ul li {
+  .ul_li {
     display: inline-block;
   }
-  nav ul{
+.nav_ul{
     width: 350px;
-    display: flex;
     justify-content: space-around;
   }
   
-  nav ul li a {
+  .a_navegador {
     display: block;
     text-align: center;
     padding: 10px;
@@ -33,11 +31,10 @@ nav {
 
 
 /*Header*/
-header {
+.header {
     background: url(./Material/Info-Trabajo-Final/assets/imagenes/codigo.jpg) 50% 0 fixed;
     background-size: cover;
     height: 500px;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -64,7 +61,6 @@ main h2{
     height: 410px;
     background-color: rgb(230, 221, 196) ;
     border: 5px solid rgb(103, 137, 131);
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     
@@ -73,7 +69,6 @@ main h2{
     width: 100%;
 }
 .contenedor{
-    display: flex;
     justify-content: space-around;
     padding-bottom: 10%;
 }
@@ -93,8 +88,7 @@ main h2{
 }
 
 /*Footer*/
-footer{
-    display: flex;
+.footer{
     justify-content: space-between;
     align-items: center;
     padding: 35px;
@@ -106,7 +100,6 @@ footer div img{
     height: 80px;
 }
 footer .div_footer{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
@@ -119,13 +112,11 @@ footer .div_footer h3{
 /*Historia-Main*/
 .main_historia{
     background-color:rgb(24, 28, 48) ;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .contenedor_h2_p{
-    display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
@@ -149,5 +140,10 @@ p{
 }
 .div_main_top{
     padding-top: 160px;
+}
+/*Conjunto*/
+
+.display_flex{
+    display: flex;
 }
 
