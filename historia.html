@@ -9,7 +9,7 @@
     <title>Proyecto-Final</title>
 </head>
 <body>
-    <nav class="nav display_flex background_color_blue justify_content_space_between">
+    <nav class="nav display_flex background_color_blue justify_content_space_between align_items_center">
         <a href="./index.html">
             <svg width="200" height="80" class="svg_imagen">
                 <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
@@ -18,27 +18,27 @@
                 <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
             </svg>
         </a>
-        <ul class="nav_ul display_flex">
-            <li class="ul_li"><a class="a_navegador" href="./historia.html">HISTORIA</a></li>
-            <li class="ul_li"><a class="a_navegador" href="./juguemos.html">JUGUEMOS</a></li>
+        <ul class="nav_ul display_flex justify_content_space_around">
+            <li class="ul_li"><a class="a_navegador text_align_center text_decoration_none box_shadow_green color_azul" href="./historia.html">HISTORIA</a></li>
+            <li class="ul_li"><a class="a_navegador text_align_center text_decoration_none box_shadow_green color_azul" href="./juguemos.html">JUGUEMOS</a></li>
         </ul>
     </nav>
-    <header class="header display_flex">
-        <h1>HISTORIA DE LA PROGRAMACIÓN</h1>
+    <header class="header display_flex align_items_center">
+        <h1 class="text_align_center">HISTORIA DE LA PROGRAMACIÓN</h1>
     </header>
-    <main class="main_historia display_flex background_color_blue">
-        <div class="contenedor_h2_p div_main_top display_flex">
-            <h2>El principio de la historia de la programacion</h2>
+    <main class="main_historia display_flex background_color_blue align_items_center">
+        <div class="contenedor_h2_p div_main_top display_flex align_items_center justify_content_space_around">
+            <h2 class="text_align_center">El principio de la historia de la programacion</h2>
             <p>El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en 1883. Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage. El propósito de este algoritmo era calcular los números de Bernoulli. En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan Turing. Church expresó el cálculo lambda de forma formulativa.</p>
         </div>
-        <div class="contenedor_h2_p display_flex">
+        <div class="contenedor_h2_p display_flex align_items_center justify_content_space_around">
             <p>Los primeros ordenadores modernos   (alimentados eléctricamente) fueron creados en los años 40. Estas computadoras estaban limitadas en velocidad y capacidad de memoria.
             <br>
             Debido a estas limitaciones, los programadores se vieron obligados a escribir manualmente programas en lenguaje ensamblador. Siendo un lenguaje de programación de bajo nivel, era una tarea difícil programarlo manualmente. Los programadores se dieron cuenta entonces de la necesidad de lenguajes de alto nivel para disminuir el esfuerzo que se requería para escribir los programas en lenguaje ensamblador manualmente.</p>
-            <h2>Lenguaje de ensamblaje</h2>
+            <h2 class="text_align_center">Lenguaje de ensamblaje</h2>
         </div>
-        <div class="contenedor_h2_p display_flex">
-            <h2 class="prueba">Los primeros lenguajes de programación</h2>
+        <div class="contenedor_h2_p display_flex align_items_center justify_content_space_around">
+            <h2 class="prueba text_align_center">Los primeros lenguajes de programación</h2>
             <p class="p_historia">
                 
                 FORmulaTRANslation es el lenguaje de programación más antiguo y que continúa en uso. Creada por John Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel, matemáticas y estadísticas. A día de hoy, este lenguaje se sigue usando en la industria automovilística, aeroespacial, gubernamental y la investigación. Por ejemplo, es muy útil para el pronóstico de los servicios meteorológicos. <br>
@@ -55,19 +55,19 @@
             </p>
         </div>
     </main>
-    <article class="container_video background_color_blue">
+    <article class="container_video background_color_blue align_items_center">
         <h2 class="h2_juguemos">Un breve video para completar lo vistos</h2>
         <section class="section_video">
             <video width="100%" poster="./Material/Info-Trabajo-Final/assets/imagenes/img-video.jpg" id="video_historia">
                 <source src="./Material/Info-Trabajo-Final/assets/video/historia-Comp.mp4" type="video/mp4">
                 <source src="./Material/Info-Trabajo-Final/assets/video/historia-Comp.ogv" type="video/og">
             </video>
-            <div class="barra_video">
+            <div class="barra_video justify_content_space_between">
                 <div class="botones">
-                    <button class="boton_video">
+                    <button class="boton_video text_decoration_none box_shadow_green color_azul">
                         <img src="./Material/Info-Trabajo-Final/assets/imagenes/play.svg" alt="Play">
                     </button>
-                    <button class="boton_video"><img src="./Material/Info-Trabajo-Final/assets/imagenes/pausa.svg" alt="Pausa"></button>
+                    <button class="boton_video text_decoration_none box_shadow_green color_azul"><img src="./Material/Info-Trabajo-Final/assets/imagenes/pausa.svg" alt="Pausa"></button>
                 </div>
                 <div>
                     <p>Duracion video: <span id="duracion"></span></p>
@@ -79,17 +79,17 @@
 
 
 
-    <footer class="footer display_flex">
-        <div class="div_footer display_flex">
+    <footer class="footer display_flex justify_content_space_between align_items_center color_azul">
+        <div class="div_footer display_flex justify_content_space_between align_items_center">
             <img src="./Material/Info-Trabajo-Final/assets/imagenes/logo.png" alt="logo de la pagina">
-            <h3>
+            <h3 class="text_align_center">
                 PROGRAMACION<br>
                 E<br>
                 HISTORIA<br>
             </h3>
         </div>
         <div>
-            <p class="p_footer">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+            <p class="p_footer color_azul">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
         </div>
     </footer>
     <script src="./script_historia.js"></script>
