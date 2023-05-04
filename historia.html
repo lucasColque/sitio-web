@@ -9,9 +9,9 @@
     <title>Proyecto-Final</title>
 </head>
 <body>
-    <nav class="nav display_flex">
+    <nav class="nav display_flex background_color_blue justify_content_space_between">
         <a href="./index.html">
-            <svg width="200" height="80">
+            <svg width="200" height="80" class="svg_imagen">
                 <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
                 <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
                 <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
@@ -26,7 +26,7 @@
     <header class="header display_flex">
         <h1>HISTORIA DE LA PROGRAMACIÓN</h1>
     </header>
-    <main class="main_historia display_flex">
+    <main class="main_historia display_flex background_color_blue">
         <div class="contenedor_h2_p div_main_top display_flex">
             <h2>El principio de la historia de la programacion</h2>
             <p>El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en 1883. Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage. El propósito de este algoritmo era calcular los números de Bernoulli. En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan Turing. Church expresó el cálculo lambda de forma formulativa.</p>
@@ -55,7 +55,26 @@
             </p>
         </div>
     </main>
-
+    <article class="container_video background_color_blue">
+        <h2 class="h2_juguemos">Un breve video para completar lo vistos</h2>
+        <section class="section_video">
+            <video width="100%" poster="./Material/Info-Trabajo-Final/assets/imagenes/img-video.jpg" id="video_historia">
+                <source src="./Material/Info-Trabajo-Final/assets/video/historia-Comp.mp4" type="video/mp4">
+                <source src="./Material/Info-Trabajo-Final/assets/video/historia-Comp.ogv" type="video/og">
+            </video>
+            <div class="barra_video">
+                <div class="botones">
+                    <button class="boton_video">
+                        <img src="./Material/Info-Trabajo-Final/assets/imagenes/play.svg" alt="Play">
+                    </button>
+                    <button class="boton_video"><img src="./Material/Info-Trabajo-Final/assets/imagenes/pausa.svg" alt="Pausa"></button>
+                </div>
+                <div>
+                    <p>Duracion video: <span id="duracion"></span></p>
+                </div>
+            </div>
+        </section>
+    </article>
 
 
 
@@ -70,8 +89,9 @@
             </h3>
         </div>
         <div>
-            <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+            <p class="p_footer">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
         </div>
     </footer>
+    <script src="./script_historia.js"></script>
 </body>
 </html>

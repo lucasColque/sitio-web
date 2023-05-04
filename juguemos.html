@@ -9,9 +9,9 @@
     <title>Proyecto-Final</title>
 </head>
 <body>
-    <nav class="nav display_flex">
+    <nav class="nav display_flex background_color_blue justify_content_space_between">
         <a href="./index.html">
-            <svg width="200" height="80">
+            <svg width="200" height="80" class="svg_imagen">
                 <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
                 <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
                 <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
@@ -26,5 +26,30 @@
     <header class="header display_flex">
         <h1>JUGUEMOS UN POCO</h1>
     </header>
+    <main class="main_juguemos background_color_blue">
+        <h2 class="h2_juguemos">
+            Armemos el rompecabezas y veamos que imagen es...
+        </h2>
+        <section class="section_juguemos">
+            <div class="contenedor_juguemos">
+                <div class="contenedor_dropZone_juguemos">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="contenedor_dropZone_juguemos">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="contenedor_dropZone_juguemos">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+            </div>
+            <div class="contenedor_juguemos gap_imagenes_juguemos">
+                <img id="im_1" class="img_juguemos" src="./Material/Info-Trabajo-Final/assets/imagenes/rompe2.png" alt="rompecabeza numero 2">
+                <img id="im_2" class="img_juguemos" src="./Material/Info-Trabajo-Final/assets/imagenes/Rompe1.png" alt="rompecabeza numero 1">
+                <img id="im_3" class="img_juguemos" src="./Material/Info-Trabajo-Final/assets/imagenes/Rompe3.png" alt="rompecabeza numero 3">
+            </div>
+        </section>
+        <button class="a_navegador button_juguemos">Reiniciar</button>
+    </main>
+    <script src="./script_juguemos.js"></script>
 </body>
 </html>
