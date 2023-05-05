@@ -17,7 +17,6 @@
     display: block;
     padding: 9px;
     border-radius: 11px;
-    background-color: rgb(230, 221, 196);
   }
   .svg_imagen {
     opacity: 0;
@@ -40,7 +39,6 @@
     background: url(./Material/Info-Trabajo-Final/assets/imagenes/codigo.jpg) 50% 0 fixed;
     background-size: cover;
     height: 500px;
-    justify-content: center;
   }
 h1{
     color: rgb(238, 238, 238);
@@ -53,15 +51,12 @@ h1{
 main h2, article h2{
     text-shadow: 2px 2px black;
     font-size:  2.5em;
-    color: rgb(103, 137, 131);
     margin-bottom: 20vh;
 }
 .carta{
     width: 360px;
     height: 410px;
-    background-color: rgb(230, 221, 196) ;
     border: 5px solid rgb(103, 137, 131);
-    flex-direction: column;
  
 }
 .carta img{
@@ -99,10 +94,6 @@ footer .div_footer h3{
 }
 
 /*Historia-Main*/
-.main_historia{
-    flex-direction: column;
-    justify-content: center;
-}
 .contenedor_h2_p{
     gap: 30px;
     padding: 80px 60px;
@@ -110,17 +101,12 @@ footer .div_footer h3{
 .main_historia div h2{
     margin: auto 20px;
     font-size: 40px;
-    width: 50%;
-}
-
-.main_historia div p{
-    width: 50%;
 }
 p{
     color: #E6DDC4;
 }
 .p_historia{
-    width: 70%;
+    width: 75%;
 }
 .div_main_top{
     padding-top: 160px;
@@ -134,17 +120,11 @@ p{
 .h2_juguemos{
     margin-bottom: 0;
 }
-.section_juguemos{
-    display: flex;
-    flex-direction: column;
-}
+
 .contenedor_juguemos{
-    display: flex;
     flex-direction: row;
 }
 .contenedor_dropZone_juguemos{
-    display: flex;
-    justify-content: center;
     width: 275px;
     height: 400px;
     background-color: grey;
@@ -161,9 +141,11 @@ p{
 }
 .button_juguemos{
     padding: 10px 100px;
-    display: flex;
     margin: auto;
 }
+.button_juguemos:hover {
+    cursor: pointer;
+  }
 .hidden{
     visibility: hidden;
 }
@@ -174,11 +156,7 @@ p{
 article{
     padding: 100px 0px;
 }
-.container_video{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .section_video{
     width: 70%;
     padding: 5px;
@@ -186,7 +164,6 @@ article{
     border-radius: 5px;
 }
 .botones{
-    display: flex;
     padding: 2px 5px;
     border-radius: 10px;
     gap: 20px;
@@ -195,7 +172,6 @@ article{
     width: 80px;
 }
 .barra_video{
-    display: flex;
     background-color: #1d1d1d;
     padding: 5px 0px;
 }
@@ -203,10 +179,6 @@ article{
 
 /*Conjunto*/
 
-.display_flex{
-    display: flex;
-    
-}
 .background_color_blue{
     background-color: rgb(24, 28, 48);
 }
@@ -233,5 +205,23 @@ article{
 }
 .color_azul{
     color: rgb(24, 28, 48);
+}
+.color_verde{
+    color: rgb(103, 137, 131);
+}
+.justify_content_center{
+    justify-content: center;
+}
+.background_color_beige{
+    background-color: rgb(230, 221, 196);
+}
+.flex_direction_column{
+    flex-direction: column;
+}
+.width_50_por{
+    width: 50%;
+}
+.display_flex{
+    display: flex;
 }
 /*Conjunto*/
